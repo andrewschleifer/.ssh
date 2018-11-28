@@ -1,0 +1,4 @@
+host github.com
+    IdentityFile %d/.ssh/identity.d/github
+    User git
+
