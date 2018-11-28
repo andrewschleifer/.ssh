@@ -1,0 +1,5 @@
+host bitbucket.org
+    ControlPersist no
+    IdentityFile %d/.ssh/identity.d/bitbucket
+    User git
+
