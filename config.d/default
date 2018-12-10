@@ -9,7 +9,6 @@ Host *
     ForwardAgent no
     ForwardX11 no
     GatewayPorts no
-    GSSAPIAuthentication no
     HostbasedAuthentication no
     IdentitiesOnly yes
     KbdInteractiveAuthentication no
@@ -17,5 +16,4 @@ Host *
     PasswordAuthentication no
     Protocol 2
     StrictHostKeyChecking yes
-    UseKeychain no
 
