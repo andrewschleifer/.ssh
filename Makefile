@@ -14,4 +14,4 @@ known_hosts: $(wildcard known_hosts.d/*)
 .PHONY: permissions
 permissions:
 	chmod 700 . *.d
-	chmod 400 identity.d/*
+	-chmod 400 identity.d/*
