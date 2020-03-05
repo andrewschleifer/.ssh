@@ -1,19 +1,22 @@
 Host *
     AddKeysToAgent yes
+    ChallengeResponseAuthentication no
+    CheckHostIP no
+    Compression yes
     ControlMaster auto
     ControlPath ~/.ssh/socket.d/%C
     ControlPersist 10m
-    ChallengeResponseAuthentication no
-    CheckHostIP yes
-    Compression yes
     ForwardAgent no
     ForwardX11 no
     GatewayPorts no
     HostbasedAuthentication no
     IdentitiesOnly yes
     KbdInteractiveAuthentication no
-    ServerAliveInterval 15
     PasswordAuthentication no
+    PreferredAuthentications publickey
     Protocol 2
+    ServerAliveCountMax 10
+    ServerAliveInterval 60
     StrictHostKeyChecking yes
+    TCPKeepAlive no
 
