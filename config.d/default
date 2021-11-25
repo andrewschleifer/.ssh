@@ -15,8 +15,7 @@ Host *
     PasswordAuthentication no
     PreferredAuthentications publickey
     Protocol 2
-    ServerAliveCountMax 10
-    ServerAliveInterval 60
+    ServerAliveCountMax 6
+    ServerAliveInterval 10
     StrictHostKeyChecking yes
-    TCPKeepAlive no
 
